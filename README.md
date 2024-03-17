@@ -15,10 +15,10 @@ We also produces MaskRemover, which can simulate the 2D segmentation error, prod
 In this algorithm, we try to search for the potential candidates (pair of cells) that may have a missing cell mask (2D segmentation error) between them. 
 We will then do a one-to-one correspondence check using the original optimal transport model in CellStitch 
 
-## ShapeDetection (Not finished yet)
+## ShapeDetection (IN PROGRESS)
 In this algorithm, we consider the following question: if stitch a candidate pair, then whether they can from a cell with **regular** shape 
 We will also use clustering method to determine what is a **regular-shaped** cell
 
-## EMDValidation (Not finished yet)
+## EMDValidation (IN PROGRESS)
 In this algorithm, we study the following question: whehter the shape of mask changes drastically near the missing the layer.
 We propose a method to use EMD to quantify the change between layers and layers in each cell.
