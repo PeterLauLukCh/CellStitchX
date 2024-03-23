@@ -32,11 +32,14 @@ Even though they have a linear or quadratic trend, there exists some oscillation
 
 This is the statistics we get after using the regression method:
 
-Linear Type: mean of $R^2$ is 0.9377, standard deviation of $R^2$ is 0.0715
-Quadratic Type: mean of $R^2$ is 0.9149, standard deviation of $R^2$ is 0.1109
+Linear Type: mean of $R^2=0.9377$, standard deviation of $R^2=0.0715$
+
+Quadratic Type: mean of $R^2=0.9149$, standard deviation of $R^2=0.1109$
 
 <img width="481" alt="Screen Shot 2024-03-22 at 9 38 54 PM" src="https://github.com/PeterLauLukCh/CellStitchX/assets/147995851/3d89caf5-3137-4d89-89f8-5dc42f538941">
 
+### Experiment 2: Lenient Criterion
+We start by calculating the mean ($µ$) and standard deviation ($σ$) of $R^2$ values from cells that pass a strict criterion. Then, for each cell ($Cell_{i}$) that doesn't meet this criterion, we compute its $R^2$ using both linear and quadratic regression. If either the linear or quadratic $R^2$ value falls within 1 standard deviation from the mean, we consider the cell as a potential candidate.
 
 ## EMDValidation (IN PROGRESS)
 In this algorithm, we study the following question: whehter the shape of mask changes drastically near the missing the layer.
