@@ -41,6 +41,17 @@ Quadratic Type: mean of $R^2=0.9149$, standard deviation of $R^2=0.1109$
 ### Experiment 2: Lenient Criterion
 We start by calculating the mean ($µ$) and standard deviation ($σ$) of $R^2$ values from cells that pass a strict criterion. Then, for each cell that doesn't meet this criterion, we compute its $R^2$ using both linear and quadratic regression. If either the linear or quadratic $R^2$ value falls within 1 standard deviation from the mean, we consider the cell as a potential candidate.
 
+Experiment result:
+
+Number of cells: 2208
+
+Number of total cells that passed all the strict criterion: 2181
+
+Passing rate: 98.77%
+
+<img width="503" alt="Screen Shot 2024-03-22 at 10 20 16 PM" src="https://github.com/PeterLauLukCh/CellStitchX/assets/147995851/62b9b591-951e-4c33-a8e7-d3e6fd3c6e64">
+
+
 ## EMDValidation (IN PROGRESS)
 In this algorithm, we study the following question: whehter the shape of mask changes drastically near the missing the layer.
 We propose a method to use EMD to quantify the change between layers and layers in each cell.
