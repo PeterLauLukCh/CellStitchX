@@ -19,6 +19,12 @@ We will then do a one-to-one correspondence check using the original optimal tra
 In this algorithm, we consider the following question: if stitch a candidate pair, then whether they can from a cell with **regular** shape 
 We will also use clustering method to determine what is a **regular-shaped** cell
 
+### Experiment 1: Harsh Criterion (only accept strict monotonous increasing/decreasing/quadratic)
+Source: all the leaf cells
+Number of cells: 2208
+Number of total cells that passed all the strict criterion: 2048
+Passing rate: 92.75%
+
 ## EMDValidation (IN PROGRESS)
 In this algorithm, we study the following question: whehter the shape of mask changes drastically near the missing the layer.
 We propose a method to use EMD to quantify the change between layers and layers in each cell.
