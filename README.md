@@ -21,8 +21,11 @@ We will also use clustering method to determine what is a **regular-shaped** cel
 
 ### Experiment 1: Harsh Criterion (only accept strict monotonous increasing/decreasing/quadratic)
 Source: all the leaf cells
+
 Number of cells: 2208
+
 Number of total cells that passed all the strict criterion: 2048
+
 Passing rate: 92.75%
 
 ## EMDValidation (IN PROGRESS)
