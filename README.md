@@ -28,6 +28,16 @@ Number of total cells that passed all the strict criterion: 2048
 
 Passing rate: 92.75%
 
+Even though they have a linear or quadratic trend, there exists some oscillations which is not strictly monotonous. Therefore, we are considering doing a regression and setting an arbitrary $R^2$ threshold seperately for linear and quadratic cells. 
+
+This is the statistics we get after using the regression method:
+
+Linear Type: mean of $R^2$ is 0.9377, standard deviation of $R^2$ is 0.0715
+Quadratic Type: mean of $R^2$ is 0.9149, standard deviation of $R^2$ is 0.1109
+
+<img width="481" alt="Screen Shot 2024-03-22 at 9 38 54 PM" src="https://github.com/PeterLauLukCh/CellStitchX/assets/147995851/3d89caf5-3137-4d89-89f8-5dc42f538941">
+
+
 ## EMDValidation (IN PROGRESS)
 In this algorithm, we study the following question: whehter the shape of mask changes drastically near the missing the layer.
 We propose a method to use EMD to quantify the change between layers and layers in each cell.
